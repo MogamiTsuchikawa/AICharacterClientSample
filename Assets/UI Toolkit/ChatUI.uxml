@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/ChatUIStyle.uss?fileID=7433441132597879392&amp;guid=6ecf09c9a713b466cabf97900ea22d63&amp;type=3#ChatUIStyle" />
+    <ui:VisualElement name="MessagesElement" class="messages-element">
+        <ui:ScrollView name="MessagesList" class="messages-list" />
+        <ui:VisualElement name="InputArea" class="input-area">
+            <ui:Button name="MicButton" class="mic-button" style="background-image: url(/Assets/Icons/MaterialSymbolsMic.png);" />
+            <ui:TextField name="MessageInput" class="message-input" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

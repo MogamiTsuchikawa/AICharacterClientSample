@@ -1,0 +1,54 @@
+.messages-element {
+    width: 30%;
+    height: 100%;
+    flex-direction: column;
+    margin: 0;
+}
+
+.messages-list {
+    flex-grow: 1;
+    flex-direction: column-reverse;
+}
+
+.input-area {
+    flex-direction: row;
+    height: 80px;
+    padding: 5px;
+    margin: 0;
+}
+
+.mic-button {
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    border-radius: 20px;
+    background-image: url('/Assets/Icons/MaterialSymbolsMic.png');
+}
+
+.message-input {
+    flex-grow: 1;
+    margin-left: 10px;
+    margin: 0;
+}
+
+.message-item {
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 0;
+}
+
+.user-name {
+    margin: 0;
+    background-color: rgb(245, 254, 109);
+    -unity-font-style: bold;
+    padding: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.message-content {
+    white-space: normal;
+    padding: 5px;
+    -unity-font-style: bold;
+}
